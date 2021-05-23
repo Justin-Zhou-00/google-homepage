@@ -43,19 +43,18 @@ button{
 a:hover{
     text-decoration: underline;
 }
-.appIcon{
-    color: grey;
-}
 
+/* Google apps icon*/
 .material-icons.gray600 { 
     color: #5f6368; 
     padding: 1rem;
 }
-
+/* Google main logo */
 .logo {
     padding-top: 6.813rem;
     text-align: center;
 }
+/* Search bar positioning */
 .search-bar {
     position: relative;
     padding-top: 1rem;
@@ -66,7 +65,7 @@ a:hover{
     align-items: center;
     
 }
-
+/* Search bar which receives inputs*/
 .input-search{
     border: 1px solid #dfe1e5;
     border-radius: 1.5rem;
@@ -76,6 +75,7 @@ a:hover{
     width:100%;
     font-size: 1.15rem;
 }
+/* While search bar is in focus */
 .input-search:focus {
     outline: none;
     box-shadow: 3px 3px 10px #dfe1e5;
