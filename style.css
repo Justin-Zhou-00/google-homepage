@@ -43,7 +43,7 @@ button{
 a:hover{
     text-decoration: underline;
 }
-#appIcon{
+.appIcon{
     color: grey;
 }
 
@@ -55,4 +55,32 @@ a:hover{
 .logo {
     padding-top: 6.813rem;
     text-align: center;
+}
+.search-bar {
+    position: relative;
+    padding-top: 1rem;
+    text-align: center;
+    display: flex;
+    margin: auto;
+    width: 50%;
+    align-items: center;
+}
+
+.input-search{
+    border: 1px solid #dfe1e5;
+    border-radius: 1.5rem;
+    height: 2.5rem; 
+    max-width:100%;
+    padding-left: 2.5rem;
+    width:100%;
+    font-size: 1.15rem;
+}
+.input-search:focus {
+    outline: none;
+}
+.search-image{
+    display: flex;
+    filter: contrast(0);
+    padding-left: 0.5rem;
+    position: absolute;
 }
